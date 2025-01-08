@@ -76,7 +76,7 @@ useEffect em ColorBox será chamado sempre que o valor da cor for alterado.
  const [color, setColor] = useState<string>('white');
  return (
  <div className='App'>
- <h1>Mudar Cor de Fundo com useEffect</h1>
+ <h3>Mudar Cor de Fundo com useEffect</h3>
  <ColorInput color={color} setColor={setColor} />
  <ColorBox color={color} />
  </div>
